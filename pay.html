@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/base-min.css">
+	<link rel="stylesheet" href="assets/style.css">
+	<title>Pay</title>
+</head>
+<body>
+
+<!-- -----HEADER----- -->
+<header>
+	<ul>
+		<li class="icon-left icon">
+			<a href="javascript:history.back()"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+		</li>
+		<li class="center-text"><a href="" onclick="showList(); return false;">Payment Method</a></li>
+		<li class="icon-right icon"><a href="Cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+	</ul>
+</header>
+
+<!-- -----MENU----- -->
+
+	<ul class="nav" id="nav">
+		<li><a href="">Menu</a></li>
+		<li><a href="">Fav Order</a></li>
+		<li><a href="">My Cart</a></li>
+		<li><a href="">My Wallet</a></li>
+		<li><a href="">Setting</a></li>
+	</ul>
+
+<!-- -----SCRIPT----- -->
+
+<script src="assets/javascript.js"></script>
+
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+  <script src="js/incrementing.js"></script>
+
+
+<!-- -----MAIN----- -->
+
+<div class="pay-wrapper">
+	
+	<div class="pay">
+		<div class="card-button"> <a href="pay2.html"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></a> <a href="pay3.html"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a> </div>
+
+		<div class="card-img">
+			<div class="left-box">
+				<div class="card-number">8470 5535 5215 <i class="fa fa-circle" aria-hidden="true"></i>&nbsp;<i class="fa fa-circle" aria-hidden="true"></i>&nbsp;<i class="fa fa-circle" aria-hidden="true"></i>&nbsp;<i class="fa fa-circle" aria-hidden="true"></i> </div>
+				<div class="card-date">08/20</div>
+			</div>
+
+			<div class="right-box"> VISA</div>
+		</div>
+
+		<a href=""><div class="add-card">Add card</div></a>
+
+		<div class="card-infor-wrap">
+			<label for="Cardnumber">Card Number</label>
+			<input type="text" name="Cardnumber" id="Cardnumber" class="Cardnumber">
+
+			<div class="card-box">
+				<div class="card left">
+					<label for="first-name">Expration Date</label>
+					<input type="text" name="Expration" id="Expration">
+				</div>
+				<div class="card right">
+					<label for="first-name">CVV</label>
+					<input type="text" name="cvv" id="cvv">
+				</div>
+			</div>
+
+			<label for="Cardname">Card Holder's Name</label>
+			<input type="text" name="Cardname" id="Cardname" class="Cardname">
+		
+		</div>
+
+		<div class="price-bottom">
+		<div class="total">Total(4) : <span>$69</span></div>
+		
+		<div class="each-coffee3">
+		
+		<button class="button" style="vertical-align:middle"><a href="order-time.html"><span>Confirm Payment</span></a></button>
+		
+		</div>
+	</div>
+			
+
+
+		</div>
+	</div>
+
+</div>
+
+	
+</body>
+</html>

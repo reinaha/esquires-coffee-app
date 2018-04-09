@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/base-min.css">
+	<link rel="stylesheet" href="assets/style.css">
+	<title>Option</title>
+</head>
+<body>
+
+<!-- -----HEADER----- -->
+<header>
+	<ul>
+		<li class="icon-left icon">
+			<a href="javascript:history.back()"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+		</li>
+		<li class="center-text"><a href="" onclick="showList(); return false;">Option</a></li>
+		<li class="icon-right icon"><a href="coffe-infor.html"><i class="fa fa-times" aria-hidden="true"></i></a></li>
+	</ul>
+</header>
+
+<!-- -----MENU----- -->
+
+	<ul class="nav" id="nav">
+		<li><a href="Menu.html">Menu</a></li>
+		<li><a href="">Fav Order</a></li>
+		<li><a href="Cart.html">My Cart</a></li>
+		<li><a href="">My Wallet</a></li>
+		<li><a href="">Setting</a></li>
+	</ul>
+
+<!-- -----SCRIPT----- -->
+
+<script src="assets/javascript.js"></script>
+
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+  <script src="js/incrementing.js"></script>
+
+
+<!-- -----MAIN----- -->
+
+<div class="option-wrap">
+	
+	<ul class="option-con">
+
+		<li><div class="left-box"></div><div class="middle-box">
+		<select name="sugar" id="sugar">
+				<option value="WhiteSugar">White Sugar</option>
+				<option value="BrownSugar">Brown Sugar</option>
+				<option value="Sweetner">Sweetner</option>
+		</select>
+		<h4>$1</h4> </div>
+
+		<div class="right-box">
+		<i class="fa fa-minus-circle" aria-hidden="true"></i>&nbsp;
+		<h4>3</h4>&nbsp;
+		<i class="fa fa-plus-circle" aria-hidden="true"></i>
+		</div>
+
+		</li>
+
+		<li><div class="left-box"></div><div class="middle-box">
+		<select name="shot" id="shot">
+				<option value="Caffeine">Caffeine Shot</option>
+				<option value="Decaffeine">Decaffeine Shot</option>
+		</select>
+		<h4>$1</h4> </div>
+
+		<div class="right-box">
+		<i class="fa fa-minus-circle" aria-hidden="true"></i>&nbsp;
+		<h4>1</h4>&nbsp;
+		<i class="fa fa-plus-circle" aria-hidden="true"></i>
+		</div>
+
+		</li>
+
+		<li><div class="left-box"></div><div class="middle-box">
+		<select name="milk" id="milk">
+				<option value="Cow">Cow Milk</option>
+				<option value="Soy">Soy Milk</option>
+				<option value="Trim">Trim Milk</option>
+				<option value="Almond">Almond Milk</option>
+		</select>
+		<h4>$1</h4> </div>
+
+		<div class="right-box">
+		<i class="fa fa-minus-circle" aria-hidden="true"></i>&nbsp;
+		<h4>3</h4>&nbsp;
+		<i class="fa fa-plus-circle" aria-hidden="true"></i>
+		</div>
+
+		</li>
+
+		<li><div class="left-box"></div><div class="middle-box">
+		<select name="cream" id="cream">
+				<option value="WhiteSugar">Whip Cream on top</option>
+				<option value="BrownSugar">Whip Cream on side</option>
+		</select>
+		<h4>$1</h4> </div>
+
+		<div class="right-box">
+		<i class="fa fa-minus-circle" aria-hidden="true"></i>&nbsp;
+		<h4>3</h4>&nbsp;
+		<i class="fa fa-plus-circle" aria-hidden="true"></i>
+		</div>
+
+		</li>
+
+	</ul>
+	
+
+	<div class="textarea">
+		<h4>Message to Baristar</h4>
+		<textarea name="" id="" cols="30" rows="10" maxlength="160"></textarea>
+	</div>
+
+	<div class="each-coffee3">
+
+	<button class="button" style="vertical-align:middle"><a href="coffe-infor.html"><span>Save your option</span></a></button>
+
+	</div>
+
+
+</div>
+	
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/base-min.css">
+	<link rel="stylesheet" href="assets/style.css">
+	<title>Order</title>
+</head>
+<body>
+
+
+<!-- -----HEADER----- -->
+<header>
+	<ul>
+		<li class="icon-left icon">
+			<a href="javascript:history.back()"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+		</li>
+		<li class="center-text"><a href="" onclick="showList(); return false;">Order your food</a></li>
+		<li class="icon-right icon"><a href="Cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+	</ul>
+</header>
+
+<!-- -----MENU----- -->
+
+	<ul class="nav" id="nav">
+		<li><a href="">Menu</a></li>
+		<li><a href="">Fav Order</a></li>
+		<li><a href="">My Cart</a></li>
+		<li><a href="">My Wallet</a></li>
+		<li><a href="">Setting</a></li>
+	</ul>
+
+<!-- -----SCRIPT----- -->
+
+<script src="assets/javascript.js"></script>
+
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+  <script src="js/incrementing.js"></script>
+
+
+<!-- -----MAIN----- -->
+
+<div class="order-wrap order-wrap2 order">
+	<ul>
+		<li><a href="order(2).html">Order From Inside</a></li>
+		<li><a href="order.html">Order From Outside</a></li>
+	</ul>
+
+	<div class="bill-wrapper">
+
+	<ul class="pickup">
+		<li><div class="left-box"><i class="fa fa-calendar" aria-hidden="true"></i> <div class="name">Date of pick up</div></div> 
+
+		<div class="right-box">
+				<select name="Day" id="Day">
+				<option value="0">Day</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</select>
+
+				<select name="Day" id="Day">
+				<option value="0">Month</option>
+				<option value="Jan">Jan</option>
+				<option value="Feb">Feb</option>
+				<option value="Mar">Mar</option>
+				<option value="Apr">Apr</option>
+				<option value="May">May</option>
+				<option value="Jun">Jun</option>
+				<option value="Jul">Jul</option>
+				<option value="Aug">Aug</option>
+				<option value="Sep">Sep</option>
+				<option value="Oct">Oct</option>
+				<option value="Nov">Nov</option>
+				<option value="Dec">Dec</option>
+			</select>
+
+			</div></li>
+
+
+		<li><div class="left-box"><i class="fa fa-clock-o" aria-hidden="true"></i> <div class="name">Time of pick up</div></div>
+
+		<div class="right-box">
+				<select name="Hour" id="Hour">
+				<option value="0">Hour</option>
+				<option value="1">7:00</option>
+				<option value="2">8:00</option>
+				<option value="3">9:00</option>
+				<option value="4">10:00</option>
+				<option value="5">11:00</option>
+				<option value="6">12:00</option>
+				<option value="7">13:00</option>
+				<option value="8">14:00</option>
+				<option value="9">15:00</option>
+				<option value="10">16:00</option>
+				<option value="9">17:00</option>
+				<option value="10">18:00</option>
+			</select>
+
+				<select name="Min" id="Min">
+				<option value="0">Min</option>
+				<option value="Jan">0</option>
+				<option value="Jan">5</option>
+				<option value="Feb">10</option>
+				<option value="Mar">15</option>
+				<option value="Apr">20</option>
+				<option value="May">25</option>
+				<option value="Jun">30</option>
+				<option value="Jul">35</option>
+				<option value="Aug">40</option>
+				<option value="Sep">45</option>
+				<option value="Oct">50</option>
+				<option value="Nov">55</option>
+			</select>
+
+			</div></li>
+
+		<li> 
+			<label for="male"> No booking, Order right now </label> &nbsp; &nbsp;<input type="radio" name="order" id="order">
+		</li>
+			
+
+	</ul>
+
+	
+
+		<div class="bill">
+			<ul>
+				<li>
+					<span class="right-box"><span class="top"><a href="coffe-infor.html"><p>Flat White</p></a> &nbsp; <a href="option.html"><i class="fa fa-cog" aria-hidden="true"></i></a> </span> 
+					<span class="bottom">2 x 3.90</span></span>
+					<span class="left-box">$7.18</span>
+				</li>
+		
+				<li>
+					<span class="right-box"><span class="top"><a href="coffe-infor.html"><p>Flat White</p></a> &nbsp; <a href="option.html"><i class="fa fa-cog" aria-hidden="true"></i></a> </span> 
+					<span class="bottom">2 x 3.90</span></span>
+					<span class="left-box">$7.18</span>
+				</li>
+		
+				<li>
+					<span class="right-box"><span class="top"><a href="coffe-infor.html"><p>Flat White</p></a> &nbsp; <a href="option.html"><i class="fa fa-cog" aria-hidden="true"></i></a> </span> 
+					<span class="bottom">2 x 3.90</span></span>
+					<span class="left-box">$7.18</span>
+				</li>
+		
+				<li>
+					<span class="right-box"><span class="top"><a href="coffe-infor.html"><p>Flat White</p></a> &nbsp; <a href="option.html"><i class="fa fa-cog" aria-hidden="true"></i></a> </span> 
+					<span class="bottom">2 x 3.90</span></span>
+					<span class="left-box">$7.18</span>
+				</li>
+		
+				<li>
+					<span class="right-box"><span class="top"><a href="coffe-infor.html"><p>Flat White</p></a> &nbsp; <a href="option.html"><i class="fa fa-cog" aria-hidden="true"></i></a> </span> 
+					<span class="bottom">2 x 3.90</span></span>
+					<span class="left-box">$7.18</span>
+				</li>
+		
+			</ul>
+		</div>
+		
+		<div class="point">
+			<div class="right-box">
+				<div class="top">Your Point</div> 
+				<div class="bottom">$0.5</div>
+			</div>
+			<div class="left-box">
+				<a href="wallet.html"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		
+		<div class="point2">
+		<label for="first-name"><i class="fa fa-diamond" aria-hidden="true"></i> Use Point</label>
+		<input type="text" name="first-name" id="first-name">
+		
+		</div>
+		
+		<div class="point3">
+<!-- 		<h3>Total : $ 3.90</h3> -->
+		
+		</div>
+	</div>
+
+
+	<div class="price-bottom">
+		<div class="total">Total(4) : <span>$69</span></div>
+		
+		<div class="each-coffee3">
+		
+		<button class="button" style="vertical-align:middle"><a href="pay.html"><span>Pay</span></a></button>
+		
+		</div>
+	</div>
+
+
+</div>
+
+
+
+
+	
+</body>
+</html>
